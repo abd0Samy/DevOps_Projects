@@ -1,0 +1,19 @@
+<div class="main">
+
+{% for data in studentsset %}
+{{ data.f_name }}<br/>
+{{ data.l_name }}<br/>
+{{ data.mobile }}<br/>
+{{ data.birth_date }}<br/>
+<hr/>
+{% endfor %}
+
+{% for data in coursesset %}
+{{ data.c_name }}<br/>
+{{ data.c_id }}<br/>
+{{ data.c_start_date }}<br/>
+{{ data.c_end_date }}<br/>
+<hr/>
+{% endfor %}
+
+</div>
