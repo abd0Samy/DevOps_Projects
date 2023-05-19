@@ -13,3 +13,6 @@ class Student(models.Model):
 	mobile=models.IntegerField()												#fourth column
 	birth_date=models.DateField(null=True)										#fifth column
 	time=models.DateTimeField(auto_now_add=True)								#sixth column
+	
+	# def __str__(self):
+	# 	return f"{self.username} {self.gender}"
