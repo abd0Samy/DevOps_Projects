@@ -6,7 +6,7 @@
 <>
 ### 3- run docker container redis in detached mode
 <>
-### 4- try to stop the running redis container and check the present container o the host
+### 4- try to stop the running redis container and check the present container on the host
 <>
 ### 5- check the ID of the redis container
 <>
