@@ -1,7 +1,7 @@
 # Docker Task 1
 
 ### 1- check the docker version installed
-<>
+![1-docker-version](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/e215b143-6be8-4cdf-accf-e4088fabca32)
 ### 2- run docker container for hello-world
 <>
 ### 3- run docker container redis in detached mode
