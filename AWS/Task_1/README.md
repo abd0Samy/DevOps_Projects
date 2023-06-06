@@ -19,7 +19,6 @@
 
 +++ Screenshot from each group with users and permissions attached
 
-
 ## Lab implementation 
 #### 1-Group-admin
 ![1-Group-admin](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/33b3e16d-3cab-4fa5-8904-76f3e583ab3c)
