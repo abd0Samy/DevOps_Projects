@@ -1,0 +1,58 @@
+Started by user Abdelrahman Samy
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Task_1
+The recommended git tool is: NONE
+using credential github-cred
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/Task_1/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/abd0Samy/Sprints_Tasks/ # timeout=10
+Fetching upstream changes from https://github.com/abd0Samy/Sprints_Tasks/
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_ASKPASS to set credentials This the credentials of My Personal Github Account
+ > git fetch --tags --force --progress -- https://github.com/abd0Samy/Sprints_Tasks/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 44c6b03992c0f7e78f08ab35b20baca40718b014 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 44c6b03992c0f7e78f08ab35b20baca40718b014 # timeout=10
+Commit message: "updating github"
+ > git rev-list --no-walk 44c6b03992c0f7e78f08ab35b20baca40718b014 # timeout=10
+[Task_1] $ /bin/sh -xe /tmp/jenkins3717420844293242945.sh
++ docker build -t abdelrahmansamy97/jenkins_task1_image:2 Jenkins/Task_1/
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 132B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 2B 0.0s done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/alpine:3.4
+#3 DONE 0.9s
+
+#4 [1/2] FROM docker.io/library/alpine:3.4@sha256:b733d4a32c4da6a00a84df2ca32791bb03df95400243648d8c539e7b4cce329c
+#4 DONE 0.0s
+
+#5 [2/2] RUN apk update &&     apk add curl &&     apk add vim &&     apk add git
+#5 CACHED
+
+#6 exporting to image
+#6 exporting layers done
+#6 writing image sha256:86ae0a8fd46babf49eefec2bca9a8424885b16f1c13fcebc318751a7268d0b11 done
+#6 naming to docker.io/abdelrahmansamy97/jenkins_task1_image:2 done
+#6 DONE 0.0s
++ docker login -u abdelrahmansamy97 -p ****
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /var/jenkins_home/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker push abdelrahmansamy97/jenkins_task1_image:2
+The push refers to repository [docker.io/abdelrahmansamy97/jenkins_task1_image]
+dcd84797d803: Preparing
+23f7bd114e4a: Preparing
+23f7bd114e4a: Layer already exists
+dcd84797d803: Layer already exists
+2: digest: sha256:ed9e0ad8fabdbc830b8eb2a8d78839adda6e54ebab42347a33e71d0825e2a67a size: 739
+Finished: SUCCESS
