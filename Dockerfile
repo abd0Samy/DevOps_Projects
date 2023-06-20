@@ -1,4 +1,5 @@
-FROM openjdk:8
-ADD target/my-maven-docker-project.jar my-maven-docker-project.jar
-ENTRYPOINT ["java", "-jar","my-maven-docker-project.jar"]
-EXPOSE 8080
+FROM alpine:3.4
+RUN apk update && \
+    apk add curl && \
+    apk add vim && \
+    apk add git
