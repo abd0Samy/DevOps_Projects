@@ -18,7 +18,14 @@
 - Pipline syntax:
 ![Pipeline_syntax](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/d37488dd-5109-43b2-9dca-55abd7fbf043)
 
--Console Output:
+- Console Output:
 ![Console_Output_pipeline](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/edf0c650-3112-4a73-a8d7-5254dfff6864)
 
 ### 7) Create another multibranch pipeline and filter branches to contain only (master , dev , test )
+
+- All branches on Github
+![All_Branches_Github](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/94e5f4c3-e45f-4208-9b30-61e7c9140958)
+
+- Build succeeded on all braches
+![Build_succeeded](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/93ecd388-5074-48ce-ae8c-9708077e3926)
+
