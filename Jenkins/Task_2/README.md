@@ -14,20 +14,19 @@
 ### 6) Create jenkins pipeline for your repo and use script file (jenkinsfile) to write pipeline syntax, include parameter functions and env variable in it. 
 
 - Jenkinsfile on Github:
-![Jenkinsfile_on_Github](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/9ff3e5b0-c55a-43eb-a3bf-f076eae91b88)
+![Jenkinsfile_on_Github](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/050ec2f5-191b-46d4-82ed-c55d1d08b4e5)
 
 - Pipline syntax:
-![Pipeline_syntax](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/d37488dd-5109-43b2-9dca-55abd7fbf043)
+![Pipeline_syntax](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/a4fee16a-de32-4dfc-a977-9a68e353f2e4)
 
 - Console Output:
-![Console_Output_pipeline](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/edf0c650-3112-4a73-a8d7-5254dfff6864)
+![Console_Output_pipeline](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/0bdacbcb-8317-414c-bf81-851186061cc5)
 
 ### 7) Create another multibranch pipeline and filter branches to contain only (master , dev , test )
 
 - All branches on Github:
 
-![All_Branches_Github](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/94e5f4c3-e45f-4208-9b30-61e7c9140958)
+![All_Branches_Github](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/9a52fdb8-b425-4174-9a03-31f8ff392f6a)
 
 - Build succeeded on all braches:
-![Build_succeeded](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/93ecd388-5074-48ce-ae8c-9708077e3926)
-
+![Build_succeeded](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/7a158c63-79b9-428a-b8b1-02115ab6c4b5)
