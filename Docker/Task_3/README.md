@@ -22,10 +22,22 @@
     Use mysql database instead of sqlite.
 
 ## Implementation:
+
 #### 1. Problem 1:
+![Problem_1_1-create](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/a89c0626-b824-4054-b764-787649428ea3)
+![Problem_1_2-check](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/b0c6837c-d72d-43eb-af31-ac153080cc2a)
 
 #### 2. Problem 2:
+![Problem_2_1-output](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/d98f9b29-8b9e-4fc7-972a-3ba113ec80b9)
+![Problem_2_2-browser](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/e7311d09-d92e-44a9-995a-0e7fa389a905)
 
 #### 3. Problem 3:
+![problem3-content](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/caa28e26-5243-4afe-971f-c2e14f7cbbd0)
+![problem3-output_compose_up](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/d1c14ee7-35f1-43e5-8db9-f8e8d4690684)
+![problem_3-browser](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/2d625bf0-489c-4256-874a-f7731c669212)
 
 #### 4. Problem 4:
+![compose-ps](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/1ddbab1d-2194-475a-b692-0c7a857fefe0)
+![ghost-browser](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/97074b80-5394-4bde-a37b-0ee77668411e)
+![problem4-compose](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/2c521947-b0f9-4a11-a408-b4f8b6dffd6a)
+
