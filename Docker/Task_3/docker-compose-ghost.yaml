@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  blog:
+    image: ghost:1-alpine
+    ports: 
+      - "5555:2368"
+  mysql-db:
+    image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=db_pass123
