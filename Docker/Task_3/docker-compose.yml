@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  node-app:
+    build: .
+    ports: 
+      - "5555:8080"
+    links:
+      - mysql-db
+  mysql-db:
+    image: mysql
+    volumes:
+      - /opt/data/mysql_data:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=db_pass123
