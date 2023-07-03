@@ -1,6 +1,6 @@
 # Networking components
 ## Requirements:
-![lab](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/12e4c795-efce-4aed-9a33-92d7aa90f7aa)
+![lab](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/b5a00c84-2793-4189-a097-e939357ef30f)
 
 ## Implementation:
 ![instance](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/d51622b6-6c5d-4fff-b223-0deb1021dd42)
