@@ -13,3 +13,4 @@
 ![lb6](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/907f3a19-f406-4ac2-9325-c8212d5c6b1b)
 ![lb7](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/6c8a8223-df21-4523-b615-88bc278e2d22)
 ![lb8](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/06fd4697-a285-4b07-9896-b55a86eb5f96)
+### 3) Autoscaling:
