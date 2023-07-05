@@ -1,3 +1,11 @@
+## Task:
+### 1) Bastion host:
+![q1](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/b13d3fbf-ae98-482d-9359-fe493cd7cd87)
+### 2) Load balancers:
+![q2](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/774a98dc-eae8-4f8f-a51d-ff3fd5f94ecf)
+### 3) Autoscaling:
+![q3](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/84c20472-d859-46e6-b07e-363af5aa6992)
+
 ## Implementation:
 ### 1) Bastion host:
 ![bastion1](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/80f86c30-9a01-4087-af67-8eadb4aee3e1)
