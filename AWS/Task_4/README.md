@@ -14,3 +14,10 @@
 ![lb7](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/6c8a8223-df21-4523-b615-88bc278e2d22)
 ![lb8](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/06fd4697-a285-4b07-9896-b55a86eb5f96)
 ### 3) Autoscaling:
+![asg6](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/ce91d87a-2a45-4155-b9d0-f1d542a07fe8)
+![asg5](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/3423c6e8-3b31-4914-884b-3f7650b42400)
+![asg4](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/6d17ff3d-b4a7-4bb9-9127-0bfd2e3c6f9d)
+![asg3](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/3943be17-f4e6-4def-a92f-b7da0840ea0c)
+![asg2](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/a4ac137f-6df6-468c-9b41-e9955d2b8fe5)
+![asg1](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/406b8f1a-eb2e-4275-8f5c-6a6083c88d65)
+![asg7](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/f614962d-b2a5-42c9-8f0e-67908a68b8c5)
