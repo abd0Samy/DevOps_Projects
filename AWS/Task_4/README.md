@@ -12,7 +12,9 @@
 ![bastion2](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/a4b194d2-3c5a-4d33-8414-501f5276ec98)
 ![public](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/97d557f6-f5d8-4f4a-b728-3f9e3b511f84)
 ![private](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/208a0f20-ac99-4f71-9134-ec418b79462f)
+### -------------------------------------------------------------------
 ### 2) Load balancers:
+### -------------------------------------------------------------------
 ![lb1](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/47d770d7-413a-4d12-a077-e399397b87dc)
 ![lb2](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/865e2ca4-8ed9-4f5f-8c2c-495308b678de)
 ![lb3](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/cc7bff7a-e79e-4ecb-a420-7f4464a4a5bf)
@@ -21,7 +23,9 @@
 ![lb6](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/907f3a19-f406-4ac2-9325-c8212d5c6b1b)
 ![lb7](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/6c8a8223-df21-4523-b615-88bc278e2d22)
 ![lb8](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/06fd4697-a285-4b07-9896-b55a86eb5f96)
+### -------------------------------------------------------------------
 ### 3) Autoscaling:
+### -------------------------------------------------------------------
 ![asg6](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/ce91d87a-2a45-4155-b9d0-f1d542a07fe8)
 ![asg5](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/3423c6e8-3b31-4914-884b-3f7650b42400)
 ![asg4](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/6d17ff3d-b4a7-4bb9-9127-0bfd2e3c6f9d)
