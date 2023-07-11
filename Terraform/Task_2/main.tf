@@ -14,17 +14,6 @@ resource "aws_internet_gateway" "igw1" {
 	}
 }
 
-resource "aws_subnet" "subnet" {
-	for_each = var.subnets
-	vpc_id = aws_vpc.vpc1.id
-	cidr_block = each.value.cidr_block
-	map_public_ip_on_launch = each.value.is_public
-
-	tags = {
-		Name = var.tag_name
-	}
-}
-
 resource "aws_eip" "eip1" {
   domain   = "vpc"
 
@@ -106,11 +95,24 @@ resource "aws_security_group" "sg1" {
 	}
 }
 
-resource "aws_instance" "public_instance1" {
+resource "aws_subnet" "subnet" {
+	for_each = var.subnets
+	vpc_id = aws_vpc.vpc1.id
+	cidr_block = each.value.cidr_block
+	map_public_ip_on_launch = each.value.is_public
+
+	tags = {
+		Name = var.tag_name
+	}
+}
+
+resource "aws_instance" "instance" {
+	for_each = var.subnets
 	ami = var.instance_specs["ami"]
 	instance_type = var.instance_specs["instance_type"]
-  associate_public_ip_address = var.is_public["public"]
-	subnet_id = aws_subnet.subnet["public_subnet"].id
+	associate_public_ip_address = var.is_public["public"]
+	subnet_id = aws_subnet.subnet[each.key].id
+	#subnet_id = [aws_subnet.subnet[count.index].id]
 	vpc_security_group_ids = [aws_security_group.sg1.id]
 	user_data = <<EOF
 #!/bin/bash
@@ -123,19 +125,3 @@ EOF
 	}
 }
 
-resource "aws_instance" "private_instance1" {
-	ami = var.instance_specs["ami"]
-	instance_type = var.instance_specs["instance_type"]
-  associate_public_ip_address = var.is_public["private"]
-	subnet_id = aws_subnet.subnet["private_subnet"].id
-	vpc_security_group_ids = [aws_security_group.sg1.id]
-	user_data = <<EOF
-#!/bin/bash
-sudo apt update
-sudo apt install -y apache2
-EOF
-	
-	tags = {
-		Name = var.tag_name
-	}
-}
