@@ -1,0 +1,21 @@
+- name: install nginx
+  hosts: nginx
+  become: true
+  tasks:
+    - name: apt install nginx
+      apt:
+        name: nginx
+    - name: port change to 8090
+      lineinfile:
+        path: /etc/nginx/sites-enabled/default
+        search_string: 'listen 80 default_server;'
+        line: listen 8090 default_server;
+    - name: restart nginx service
+      service:
+        name: nginx
+        state: restarted
+    - name: customed html file
+      lineinfile:
+        path: /var/www/html/index.nginx-debian.html
+        search_string: 'Welcome to nginx'
+        line: <h1>Welcome to Ansible Task_1 on Nginx-Server!</h1>
