@@ -1,36 +1,27 @@
 pipeline {
-     agent any
-    parameters {
-        booleanParam(name:'project', defaultValue: true, description:'this paramater help you to know project name')
-        choice(name: 'namespace', choices:['dev','prod','stage'], description: '' ) 
-    }
+    agent any
 
     stages {
-        stage('check') {
+        stage('build image') {
             steps {
-                echo "checking your code"
-                echo "${params.namespace}"
-               
+                echo 'building new image now...'
+                sh 'docker build -t abdelrahmansamy97/pipeline2image:$BUILD_NUMBER .'
             }
         }
-
-        stage('test') {
-            when {
-                expression{
-                    params.project == true 
+       stage('push image') {
+            steps {
+                echo 'pushing the new image to the docker hub now...'
+                withCredentials([usernamePassword(credentialsId: 'docker-hub-creds', usernameVariable: 'USER', passwordVariable: 'PASSWORD')]) {
+                    sh 'docker login -u $USER -p $PASSWORD'
                 }
-            }
-            steps {
-                echo "testing your app" 
+                sh 'docker push abdelrahmansamy97/pipeline2image:$BUILD_NUMBER'
             }
         }
-        
-        stage('deployment') {  
+       stage('run app') {
             steps {
-                echo "your code is deployed right now"
-                echo "this build number $BUILD_NUMBER"
+                echo 'running the app on a container now...'
+                sh 'docker run -d --name pipeline2container abdelrahmansamy97/pipeline2image:$BUILD_NUMBER'
             }
-        }    
+        }
     }
-
 }
