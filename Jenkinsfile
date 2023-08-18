@@ -20,6 +20,7 @@ pipeline {
        stage('run app') {
             steps {
                 echo 'running the app on a container now...'
+                sh '''CID=`sudo docker ps -ql`; if [ -n "$CID" ]; then sudo docker stop $CID && sudo docker rm $CID; else  echo "No Container is running" ; fi'''
                 sh 'docker run -d --name pipeline2container abdelrahmansamy97/pipeline2image:$BUILD_NUMBER'
             }
         }
