@@ -1,5 +1,5 @@
-FROM node:18
-WORKDIR ~/app
-COPY package.json server.js .
-RUN npm install 
-CMD ["node","server.js"]
+FROM alpine:3.4
+RUN apk update && \
+    apk add curl && \
+    apk add vim && \
+    apk add git
