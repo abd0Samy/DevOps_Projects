@@ -1,6 +1,7 @@
 # Kubernates Lab_1
-#### 1- Install k8s cluster (minikube) (optional you can use https://www.katacoda.com/courses/kubernetes/playground)
-minikube.sigs.k8s.io/docs/drivers/docker/
+#### 1- Install k8s cluster (minikube) 
+##### https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+##### https://minikube.sigs.k8s.io/docs/start/
 #### 2- Create a pod with the name redis and with the image redis.
 #### 3- Create a pod with the name nginx and with the image “nginx123” Use a pod-definition YAML file.
 #### 4- What is the nginx pod status?
