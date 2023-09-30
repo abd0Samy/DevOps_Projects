@@ -3,7 +3,11 @@ Jenkins Pipeline is a collection of events or jobs which are interlinked with on
 ### 2) What scripting language is Jenkins pipeline syntax based on?
 Groovy programming language
 ### 3) what are the different ways to trigger a pipeline? 
- 
+- Manually by clicking "build" in the pipeline
+- Webhook (Pipeline gets triggered whenever there is a commit on a specific Github Repo)
+- Bash/Curl command
+- After a project is built
+- Periodically at specific dates
 ### 4) what is the difference between a parameter and a Jenkins env variable?
 
 ### 5) what is an organization folder job and what is used for?
