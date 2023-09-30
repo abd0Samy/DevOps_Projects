@@ -9,7 +9,9 @@ Groovy programming language
 - After a project is built
 - Periodically at specific dates
 ### 4) what is the difference between a parameter and a Jenkins env variable?
-
+- Parameter: a variable that is being changed upon the user's desire.
+- Environment Variable: a variable that tracks a specific metric, such as the build number.
+- Environment Variables can be overridden or unset, but params are an immutable Map and cannot be changed. The best practice is to always use params when you need to get a build parameter.
 ### 5) what is an organization folder job and what is used for?
 
 ### 6) Create a Jenkins pipeline for your repo and use the script file (Jenkinsfile) to write pipeline syntax, including parameter functions and env variables in it. 
