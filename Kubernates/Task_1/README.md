@@ -12,7 +12,8 @@
 #### 5- How many ReplicaSets exist on the system?
 ![num6](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/63b13ac8-37bd-4c77-89d4-c040fbcc1d57)
 #### 6- create a ReplicaSet with name= replica-set-1, image= busybox, replicas= 3
-![num7](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/1e2e8e72-bc84-4944-9b6c-caa7c5e8e744)
+![61](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/62d613b0-1c42-41d4-a8eb-8d3acb4306c7)
+![62](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/afd1c123-3b5e-47ae-8d1b-6ec9c5f5164d)
 #### 7- Scale the ReplicaSet replica-set-1 to 5 PODs.
 ![num8](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/0ce1cb14-9e68-4cab-aa0a-dcb4cf139e3a)
 #### 8- How many PODs are READY in the replica-set-1?
