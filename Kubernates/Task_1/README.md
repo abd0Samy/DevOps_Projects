@@ -19,7 +19,7 @@
 #### 8- How many PODs are READY in the replica-set-1?
 - None
 #### 9- Delete any one of the 5 PODs then check How many PODs exist now? Why are there still 5 PODs, even after you deleted one?
-![num10](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/4092b043-d61c-49df-8a9f-0a25c32c2b04)
+![last](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/a09ac5af-ba3d-4221-8600-f39ec5277355)
 
 
 
