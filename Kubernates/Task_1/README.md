@@ -6,8 +6,7 @@
 ![num21](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/c7dd9ec8-87a7-4de9-b88d-bccdff1dc213)
 ![num22](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/050b9e6b-393f-474f-b86b-510e733d033d)
 #### 3- Create a pod with the name nginx and with the image “nginx123” Use a pod-definition YAML file. What is the nginx pod status?
-![num31](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/6e301c8f-3648-4f57-bcab-61d683e35775)
-![num32and4](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/f0d99e05-86c0-4da4-adac-c3c1e50c9abd)
+![three and 4](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/ed7f071a-7ed5-4513-a885-dd2a22f34761)
 #### 4- Change the nginx pod image to “nginx” and check the status again
 ![num5](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/4a9526b8-dfc5-4bbb-963d-ea2293e02444)
 #### 5- How many ReplicaSets exist on the system?
