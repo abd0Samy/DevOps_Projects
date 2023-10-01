@@ -15,8 +15,9 @@
 ![61](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/62d613b0-1c42-41d4-a8eb-8d3acb4306c7)
 ![62](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/afd1c123-3b5e-47ae-8d1b-6ec9c5f5164d)
 #### 7- Scale the ReplicaSet replica-set-1 to 5 PODs.
-![num8](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/0ce1cb14-9e68-4cab-aa0a-dcb4cf139e3a)
+![scale](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/666293cd-c58e-4803-8631-6905aaa94e71)
 #### 8- How many PODs are READY in the replica-set-1?
+- None
 #### 9- Delete any one of the 5 PODs then check How many PODs exist now? Why are there still 5 PODs, even after you deleted one?
 ![num10](https://github.com/abd0Samy/Sprints_Tasks/assets/26736512/4092b043-d61c-49df-8a9f-0a25c32c2b04)
 
