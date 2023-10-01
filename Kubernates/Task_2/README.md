@@ -7,3 +7,17 @@
 #### 6- Run kubectl describe deployment deployment-1 and check events. What is the deployment strategy used to upgrade the deployment-1?
 #### 7- Rollback the deployment-1. What is the used image with the deployment-1?
 #### 8- Create a deployment using nginx image with latest tag only and remember to mention tag i.e nginx:latest and name it as nginx-deployment. App labels should be app: nginx-app and type: front-end. The container should be named as nginx-container; also make sure replica counts are 3.
+#### 9- How many Namespaces exist on the system?
+#### 10- How many pods exist in the kube-system namespace?
+#### 11- Create a deployment with
+##### Name: beta
+##### Image: redis
+##### Replicas: 2
+##### Namespace: finance
+##### Resources Requests:
+######   CPU: .5 vcpu
+######   Mem: 1G
+##### Resources Limits:
+######   CPU: 1 vcpu
+######   Mem: 2G
+#### 12- How many Nodes exist on the system?
