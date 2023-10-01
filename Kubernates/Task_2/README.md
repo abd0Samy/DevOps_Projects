@@ -10,14 +10,16 @@
 #### 9- How many Namespaces exist on the system?
 #### 10- How many pods exist in the kube-system namespace?
 #### 11- Create a deployment with
-##### Name: beta
-##### Image: redis
-##### Replicas: 2
-##### Namespace: finance
-##### Resources Requests:
-######   CPU: .5 vcpu
-######   Mem: 1G
-##### Resources Limits:
-######   CPU: 1 vcpu
-######   Mem: 2G
+```
+Name: beta
+Image: redis
+Replicas: 2
+Namespace: finance
+Resources Requests:
+  CPU: .5 vcpu
+  Mem: 1G
+Resources Limits:
+  CPU: 1 vcpu
+  Mem: 2G
+```
 #### 12- How many Nodes exist on the system?
