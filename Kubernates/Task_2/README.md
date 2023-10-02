@@ -16,7 +16,7 @@ Image: redis
 Replicas: 2
 Namespace: finance
 Resources Requests:
-  CPU: .5 vcpu
+  CPU: 0.2 vcpu
   Mem: 1G
 Resources Limits:
   CPU: 1 vcpu
