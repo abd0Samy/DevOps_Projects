@@ -10,8 +10,7 @@ values: blu
 ```
 #### 4- How many DaemonSets are created in the cluster in all namespaces?
 #### 5- what DaemonSets exist on the kube-system namespace?
-#### 6- What is the image used by the POD deployed by the kube-proxy
-DaemonSet
+#### 6- What is the image used by the POD deployed by the kube-proxy DaemonSet
 #### 7- Deploy a DaemonSet for FluentD Logging. Use the given specifications.
 ```
 name: elasticsearch
