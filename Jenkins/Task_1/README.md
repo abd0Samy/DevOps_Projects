@@ -1,4 +1,4 @@
-# Jenkins First Project
+# Jenkins First Lab
 
 ### What is Jenkins used for?
 Jenkins is an open-source automation tool that does the manual tasks I need and implements CI/CD workflows, called pipelines.
