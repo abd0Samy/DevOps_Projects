@@ -17,7 +17,14 @@ pipeline {
         }
 
         stage('test') {
-          Teststage()
+            when {
+                expression{
+                    params.project == true 
+                }
+            }
+            steps {
+                Teststage() 
+            }
         }
         
         stage('deployment') {  
