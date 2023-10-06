@@ -1,0 +1,77 @@
+Started by user Abdelrahman Samy
+Obtained Jenkinsfile3 from git https://github.com/abd0Samy/Sprints_Tasks.git
+Loading library myfirstlibrary@main
+Attempting to resolve main from remote references...
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git ls-remote -h -- https://github.com/abd0Samy/Jenkins-library/ # timeout=10
+Found match: refs/heads/main revision b48a2c4d13ef7084bff0f3adbb3d893ad884fc53
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/pipelineSharedLibrary@libs/56b21f4f7024cb8cae1fd5447450a68deedfc04087361f6097318210a5c71a37/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/abd0Samy/Jenkins-library/ # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/abd0Samy/Jenkins-library/
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --no-tags --force --progress -- https://github.com/abd0Samy/Jenkins-library/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision b48a2c4d13ef7084bff0f3adbb3d893ad884fc53 (main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b48a2c4d13ef7084bff0f3adbb3d893ad884fc53 # timeout=10
+Commit message: "Create pipeline1.groovy"
+ > git rev-list --no-walk 1c93e52c722006735d032621b54752975d52ec98 # timeout=10
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins in /var/jenkins_home/workspace/pipelineSharedLibrary
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Declarative: Checkout SCM)
+[Pipeline] checkout
+The recommended git tool is: git
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/pipelineSharedLibrary/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/abd0Samy/Sprints_Tasks.git # timeout=10
+Fetching upstream changes from https://github.com/abd0Samy/Sprints_Tasks.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/abd0Samy/Sprints_Tasks.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision a675d369f8695d6fbc898f9d9ef5aa2fb4ad2de8 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a675d369f8695d6fbc898f9d9ef5aa2fb4ad2de8 # timeout=10
+Commit message: "Update Jenkinsfile3"
+ > git rev-list --no-walk 54ba16910a7d67ae2d9d45bcb64e7719764b6105 # timeout=10
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (check)
+[Pipeline] echo
+checking your code
+[Pipeline] echo
+dev
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (test)
+[Pipeline] echo
+testing your app
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (deployment)
+[Pipeline] echo
+your code is deployed right now
+[Pipeline] echo
+this build number 7
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS
