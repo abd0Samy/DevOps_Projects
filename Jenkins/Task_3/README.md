@@ -7,6 +7,7 @@
 - Authentication is the process of verifying who someone is.
 - Authorization is the process of verifying what specific applications, files, and data a user has access to (identifying the level of privilege someone has).
 ### 3) Make jenkins-shared-library and make your jenkinsfile which you used in lab2 to point to this library 
-- Shared-Library REPO: (https://github.com/abd0Samy/Jenkins-library/blob/main/vars/pipeline1.groovy)
-- Jenkinsfile and ConsoleText are in the same directory
+- Shared-Library REPO: (https://github.com/abd0Samy/Jenkins-library/blob/main/vars/pipeline1.groovy).
+- Jenkinsfile and ConsoleText are uploaded in the same directory.
 ### 4) try to make a new slave as a container or ec2 server and configure the master to use it.
+- Jenkinsfile and ConsoleText are uploaded in the same directory.
