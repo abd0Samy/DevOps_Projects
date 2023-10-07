@@ -1,0 +1,88 @@
+Started by user Abdelrahman Samy
+Obtained Jenkinsfile-Dockeragent from git https://github.com/abd0Samy/Sprints_Tasks/
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins in /var/jenkins_home/workspace/docker-agent-test-1
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Declarative: Checkout SCM)
+[Pipeline] checkout
+The recommended git tool is: git
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/docker-agent-test-1/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/abd0Samy/Sprints_Tasks/ # timeout=10
+Fetching upstream changes from https://github.com/abd0Samy/Sprints_Tasks/
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/abd0Samy/Sprints_Tasks/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision fbad50495473c6270d35b648d94c8c41cce5d525 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fbad50495473c6270d35b648d94c8c41cce5d525 # timeout=10
+Commit message: "Create Jenkinsfile-Dockeragent"
+First time build. Skipping changelog.
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] isUnix
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] sh
++ docker inspect -f . alpine:latest
+
+Error: No such object: alpine:latest
+[Pipeline] isUnix
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] sh
++ docker pull alpine:latest
+latest: Pulling from library/alpine
+96526aa774ef: Pulling fs layer
+96526aa774ef: Download complete
+96526aa774ef: Pull complete
+Digest: sha256:eece025e432126ce23f223450a0326fbebde39cdf496a85d8c016293fc851978
+Status: Downloaded newer image for alpine:latest
+docker.io/library/alpine:latest
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] withDockerContainer
+Jenkins seems to be running inside container b2930d42802a0392baf955c33c66ca112888ec5c22fd98defd5c9f16e16dfed6
+$ docker run -t -d -u 1000:1000 -w /var/jenkins_home/workspace/docker-agent-test-1 --volumes-from b2930d42802a0392baf955c33c66ca112888ec5c22fd98defd5c9f16e16dfed6 -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** alpine:latest cat
+$ docker top 6c49e0692d9c444b6fa1b5971ac3aaaf7dd1b07e7eb27397835b7465821000df -eo pid,comm
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (check)
+[Pipeline] echo
+checking your code
+[Pipeline] echo
+dev
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (test)
+[Pipeline] echo
+testing your app
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (deployment)
+[Pipeline] echo (hide)
+your code is deployed right now
+[Pipeline] echo
+this build number 4
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+$ docker stop --time=1 6c49e0692d9c444b6fa1b5971ac3aaaf7dd1b07e7eb27397835b7465821000df
+$ docker rm -f --volumes 6c49e0692d9c444b6fa1b5971ac3aaaf7dd1b07e7eb27397835b7465821000df
+[Pipeline] // withDockerContainer
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS
