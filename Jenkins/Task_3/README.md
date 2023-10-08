@@ -10,4 +10,4 @@
 - Shared-Library REPO: (https://github.com/abd0Samy/Jenkins-library/blob/main/vars/pipeline1.groovy).
 - Jenkinsfile and ConsoleText are uploaded in the same directory.
 ### 4) try to make a new slave as a container or ec2 server and configure the master to use it.
-- Jenkinsfile and ConsoleText are uploaded in the same directory.
+A) Local Docker Container using the "Docker Pipeline" plugin. (Jenkinsfile and ConsoleText are uploaded in the same directory)
