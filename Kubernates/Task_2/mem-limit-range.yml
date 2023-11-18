@@ -18,4 +18,4 @@ spec:
         memory: 1Gi
       min:
         memory: 500Mi
-    type: Container
+      type: Container
